@@ -5,16 +5,18 @@ import { TipList } from "@/components/tip-list"
 import { WhatsAppButton } from "@/components/whatsapp-button"
 import { Card, CardContent } from "@/components/ui/card"
 
-// Import images
-import primeiroPassosImg from "@/assets/primeiros-passos.jpg"
-import montagemCarroImg from "@/assets/montagem-carro.jpg"
-import manutencaoImg from "@/assets/manutencao.jpg"
-import trabalhosImg from "@/assets/trabalhos.jpg"
-import dicasImg from "@/assets/dicas.jpg"
-import dirigindoImg from "@/assets/dirigindo.jpg"
-import personalizacaoImg from "@/assets/personalizacao.jpg"
-import habilidadesImg from "@/assets/habilidades.jpg"
-import sobrevivenciaImg from "@/assets/sobrevivencia.jpg"
+// Imagens originais da pasta local
+const imageMap = {
+  primeiroPassos: "imagens/2.jpg",
+  montagemCarro: "imagens/3.jpg", 
+  manutencao: "imagens/4.jpg",
+  trabalhos: "imagens/10.jpg",
+  dicas: "imagens/5.jpg",
+  dirigindo: "imagens/6.jpg",
+  personalizacao: "imagens/7.jpg",
+  habilidades: "imagens/8.jpg",
+  sobrevivencia: "imagens/9.jpg"
+}
 
 const dicas = [
   {
@@ -53,8 +55,8 @@ const Index = () => {
         <GuideSection
           id="primeiros-passos"
           title="1. Primeiros Passos"
-          imageSrc={primeiroPassosImg}
-          imageAlt="Interior da casa finlandesa com garagem bagunçada"
+          imageSrc={imageMap.primeiroPassos}
+          imageAlt="Primeiros Passos"
         >
           <p>
             Ao iniciar o jogo, você acorda em uma casa simples, no meio da zona rural da Finlândia. O silêncio ao redor, o rádio finlandês tocando músicas aleatórias e a bagunça da sua garagem logo mostram que o jogo será tão cômico quanto desafiador. A primeira coisa a se fazer é explorar a casa e entender o funcionamento do HUD, que mostra indicadores como sede, fome, urina, stress, sujidade, fadiga e saúde.
@@ -67,8 +69,8 @@ const Index = () => {
         <GuideSection
           id="montagem-carro"
           title="2. Montagem do Carro"
-          imageSrc={montagemCarroImg}
-          imageAlt="Peças do motor Satsuma espalhadas na bancada"
+          imageSrc={imageMap.montagemCarro}
+          imageAlt="Montagem do Carro"
         >
           <p>
             A montagem do Satsuma é o coração do jogo. Todas as peças estão disponíveis na garagem, mas não há instruções no jogo — você precisa saber o que fazer, na ordem certa. São dezenas de parafusos, peças, ajustes e testes. Montar o carro não é apenas colocar as peças — é entender como um motor de combustão funciona.
@@ -81,8 +83,8 @@ const Index = () => {
         <GuideSection
           id="manutencao"
           title="3. Manutenção e Sobrevivência"
-          imageSrc={manutencaoImg}
-          imageAlt="Interior da casa com cozinha, banheiro e sauna"
+          imageSrc={imageMap.manutencao}
+          imageAlt="Manutenção e Sobrevivência"
         >
           <p>
             O personagem precisa comer, dormir, urinar, tomar banho e relaxar. Alimentos estão na geladeira, mas tudo acaba — é preciso ir até a cidade para reabastecer. Para tomar banho, entre no chuveiro. Para reduzir o stress, você pode beber, fumar, tomar café ou usar a sauna.
@@ -95,8 +97,8 @@ const Index = () => {
         <GuideSection
           id="trabalhos"
           title="4. Trabalhos e Grana"
-          imageSrc={trabalhosImg}
-          imageAlt="Caminhões de trabalho na zona rural finlandesa"
+          imageSrc={imageMap.trabalhos}
+          imageAlt="Trabalhos e Grana"
         >
           <p>
             Dinheiro é essencial no jogo, principalmente para comprar peças de carro, mantimentos e gasolina. Há diversas formas de ganhar dinheiro honestamente: entregas de lenha, limpar fossas sépticas com o caminhão-tanque, entre outros. Cada trabalho tem sua dificuldade e risco, mas também recompensa bem.
@@ -109,8 +111,8 @@ const Index = () => {
         <GuideSection
           id="dicas"
           title="5. Dicas Rápidas"
-          imageSrc={dicasImg}
-          imageAlt="Dicas e truques do jogo"
+          imageSrc={imageMap.dicas}
+          imageAlt="Dicas Rápidas"
         >
           <TipList tips={dicas} />
         </GuideSection>
@@ -118,8 +120,8 @@ const Index = () => {
         <GuideSection
           id="dirigindo"
           title="6. Dirigindo por Aí"
-          imageSrc={dirigindoImg}
-          imageAlt="Satsuma amarelo dirigindo em estrada rural"
+          imageSrc={imageMap.dirigindo}
+          imageAlt="Dirigindo por Aí"
         >
           <p>
             Dirigir é uma parte fundamental da experiência. A direção é realista, sem assistência de volante ou GPS. Para os iniciantes, pode ser difícil manter o controle, mas com prática, você vai se acostumar. O carro tem uma velocidade razoável, mas é importante sempre checar o nível de combustível.
@@ -132,8 +134,8 @@ const Index = () => {
         <GuideSection
           id="personalizacao"
           title="7. Personalizando o Satsuma"
-          imageSrc={personalizacaoImg}
-          imageAlt="Satsuma customizado com peças de tuning"
+          imageSrc={imageMap.personalizacao}
+          imageAlt="Personalizando o Satsuma"
         >
           <p>
             O Satsuma pode ser customizado de diversas maneiras, como aparência externa, suspensão, motor e mais. A personalização vai desde a troca de peças para melhorar o desempenho, até a pintura do carro. A estética é importante não só para seu gosto pessoal, mas também para o jogo em si — muitas vezes, é necessário andar com o carro bem ajustado para concluir missões com sucesso.
@@ -143,8 +145,8 @@ const Index = () => {
         <GuideSection
           id="habilidades"
           title="8. Aumentando sua Habilidade de Mecânica"
-          imageSrc={habilidadesImg}
-          imageAlt="Desenvolvimento de habilidades mecânicas"
+          imageSrc={imageMap.habilidades}
+          imageAlt="Aumentando sua Habilidade de Mecânica"
         >
           <p>
             Para realizar uma boa montagem do carro, você precisa aumentar sua habilidade mecânica. Pratique mais, aprenda com os erros e acertos, e busque eficiência no trabalho. Quanto mais você aprende, mais peças pode substituir e mais facilmente consegue reparar o carro sem causar danos.
@@ -154,8 +156,8 @@ const Index = () => {
         <GuideSection
           id="sobrevivencia"
           title="9. Sobrevivendo ao Caos"
-          imageSrc={sobrevivenciaImg}
-          imageAlt="Situação caótica de sobrevivência no jogo"
+          imageSrc={imageMap.sobrevivencia}
+          imageAlt="Sobrevivendo ao Caos"
         >
           <p>
             My Summer Car não é para qualquer um. É um jogo de paciência, aprendizado e adaptação. Pode ser frustrante, mas as recompensas de ver seu Satsuma rodando perfeitamente ou concluir um trabalho com sucesso fazem tudo valer a pena. Aproveite a jornada, e sempre tenha em mente que, no final, o caos é parte da diversão.

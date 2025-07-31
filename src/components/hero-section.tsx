@@ -1,11 +1,9 @@
-import heroImage from "@/assets/hero-image.jpg"
-
 export function HeroSection() {
   return (
     <section id="inicio" className="relative overflow-hidden scroll-mt-20">
       <div className="relative h-96 md:h-[500px] bg-hero-gradient">
         <img
-          src={heroImage}
+          src="imagens/0.jpg"
           alt="My Summer Car - Paisagem finlandesa com carros clássicos"
           className="w-full h-full object-cover mix-blend-overlay opacity-80"
         />
