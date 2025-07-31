@@ -154,4 +154,32 @@
   ::-webkit-scrollbar-thumb:hover {
     @apply bg-muted-foreground/70;
   }
+
+  /* Image optimization for local assets */
+  img {
+    @apply max-w-full h-auto;
+  }
+
+  /* Guide specific styles for better compatibility */
+  .guide-section {
+    @apply space-y-6;
+  }
+
+  .guide-section img {
+    @apply w-full h-64 md:h-80 lg:h-96 object-cover rounded-lg shadow-card;
+  }
+
+  /* Ensure WhatsApp button compatibility */
+  .whatsapp-button {
+    @apply inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#22BF5A] text-white px-6 py-3 rounded-lg font-medium transition-all duration-300 hover:scale-105 shadow-lg;
+  }
+
+  /* Tip list styling */
+  .tip-item {
+    @apply border-l-4 border-primary bg-card p-4 rounded-r-lg shadow-sm hover:shadow-md transition-shadow duration-300;
+  }
+
+  .tip-title {
+    @apply font-semibold text-foreground mb-2 block;
+  }
 }
