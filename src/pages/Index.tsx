@@ -5,27 +5,17 @@ import { TipList } from "@/components/tip-list"
 import { WhatsAppButton } from "@/components/whatsapp-button"
 import { Card, CardContent } from "@/components/ui/card"
 
-// Imagens do Lovable
-import interfaceStatsImage from "@/assets/interface-stats.png";
-import motorCarroImage from "@/assets/motor-carro.png";
-import banheiroSobrevivenciaImage from "@/assets/banheiro-sobrevivencia.png";
-import ferramentasImage from "@/assets/ferramentas.png";
-import mapaJogoImage from "@/assets/mapa-jogo.png";
-import dirigindoCarroImage from "@/assets/dirigindo-carro.png";
-import carroMontadoImage from "@/assets/carro-montado.png";
-import motorCarburadoresImage from "@/assets/motor-carburadores.png";
-import logoMySummerCarImage from "@/assets/logo-my-summer-car.png";
-
+// Usando as imagens já existentes no projeto
 const imageMap = {
-  primeiroPassos: interfaceStatsImage,
-  montagemCarro: motorCarroImage,
-  manutencao: banheiroSobrevivenciaImage,
-  trabalhos: ferramentasImage,
-  dicas: mapaJogoImage,
-  dirigindo: dirigindoCarroImage,
-  personalizacao: carroMontadoImage,
-  habilidades: motorCarburadoresImage,
-  sobrevivencia: logoMySummerCarImage
+  primeiroPassos: "/lovable-uploads/c77029b6-cdd7-4c43-9545-65bc7e51656a.png", // interface stats
+  montagemCarro: "/lovable-uploads/cfa1c3c4-2bcc-4af9-bd5a-dac0dc6fa827.png", // motor carro
+  manutencao: "/lovable-uploads/4868b4a8-95f8-43d7-8536-9349518c4b85.png", // banheiro sobrevivencia
+  trabalhos: "/lovable-uploads/ccea9def-53c7-4dd0-9edd-81433ca572b9.png", // ferramentas
+  dicas: "/lovable-uploads/9ce638cc-1640-48aa-9acd-9f1781c15583.png", // mapa jogo
+  dirigindo: "/lovable-uploads/205107b4-fbda-4f8a-8e4f-b41ef97d6f62.png", // dirigindo carro
+  personalizacao: "/lovable-uploads/4cc1fa97-46e6-4402-a4fd-a95995d4e710.png", // carro montado
+  habilidades: "/lovable-uploads/b1c1bd4e-96fb-4054-9fb1-4621b4432b15.png", // motor carburadores
+  sobrevivencia: "/lovable-uploads/0e58749e-b887-4b8f-9566-1b1373eb3a43.png" // logo my summer car
 }
 
 const dicas = [
