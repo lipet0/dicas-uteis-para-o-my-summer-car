@@ -5,7 +5,7 @@ export function HeroSection() {
         <img
           src="/lovable-uploads/f421b7bc-ca17-412f-8bbc-e214dbf207f2.png"
           alt="My Summer Car - Paisagem finlandesa com carros clássicos"
-          className="w-full h-full object-cover mix-blend-overlay opacity-80"
+          className="w-full h-full object-contain mix-blend-overlay opacity-80"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-background/50 to-transparent" />
         <div className="absolute inset-0 flex items-center justify-center">
