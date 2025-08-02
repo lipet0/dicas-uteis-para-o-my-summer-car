@@ -5,17 +5,27 @@ import { TipList } from "@/components/tip-list"
 import { WhatsAppButton } from "@/components/whatsapp-button"
 import { Card, CardContent } from "@/components/ui/card"
 
-// Imagens originais da pasta local
+// Imagens do Lovable
+import interfaceStatsImage from "@/assets/interface-stats.png";
+import motorCarroImage from "@/assets/motor-carro.png";
+import banheiroSobrevivenciaImage from "@/assets/banheiro-sobrevivencia.png";
+import ferramentasImage from "@/assets/ferramentas.png";
+import mapaJogoImage from "@/assets/mapa-jogo.png";
+import dirigindoCarroImage from "@/assets/dirigindo-carro.png";
+import carroMontadoImage from "@/assets/carro-montado.png";
+import motorCarburadoresImage from "@/assets/motor-carburadores.png";
+import logoMySummerCarImage from "@/assets/logo-my-summer-car.png";
+
 const imageMap = {
-  primeiroPassos: "imagens/2.jpg",
-  montagemCarro: "imagens/3.jpg", 
-  manutencao: "imagens/4.jpg",
-  trabalhos: "imagens/10.jpg",
-  dicas: "imagens/5.jpg",
-  dirigindo: "imagens/6.jpg",
-  personalizacao: "imagens/7.jpg",
-  habilidades: "imagens/8.jpg",
-  sobrevivencia: "imagens/9.jpg"
+  primeiroPassos: interfaceStatsImage,
+  montagemCarro: motorCarroImage,
+  manutencao: banheiroSobrevivenciaImage,
+  trabalhos: ferramentasImage,
+  dicas: mapaJogoImage,
+  dirigindo: dirigindoCarroImage,
+  personalizacao: carroMontadoImage,
+  habilidades: motorCarburadoresImage,
+  sobrevivencia: logoMySummerCarImage
 }
 
 const dicas = [
