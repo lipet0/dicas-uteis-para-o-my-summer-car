@@ -9,15 +9,17 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-primary text-primary-foreground hover:bg-primary/90 shadow-md hover:shadow-lg hover:scale-105",
+        default: "bg-gradient-to-r from-primary to-primary/90 text-primary-foreground hover:from-primary/90 hover:to-primary shadow-elegant hover:shadow-glow hover:scale-105 border border-primary/20",
         destructive:
-          "bg-destructive text-destructive-foreground hover:bg-destructive/90 shadow-md hover:shadow-lg",
+          "bg-gradient-to-r from-destructive to-destructive/90 text-destructive-foreground hover:from-destructive/90 hover:to-destructive shadow-md hover:shadow-lg hover:scale-105",
         outline:
-          "border border-input bg-background hover:bg-accent hover:text-accent-foreground shadow-sm hover:shadow-md",
+          "border-2 border-primary/30 bg-background/50 backdrop-blur-sm text-foreground hover:bg-primary/10 hover:border-primary/50 shadow-sm hover:shadow-md hover:scale-105",
         secondary:
-          "bg-secondary text-secondary-foreground hover:bg-secondary/80 shadow-sm hover:shadow-md",
-        ghost: "hover:bg-accent hover:text-accent-foreground",
-        link: "text-primary underline-offset-4 hover:underline",
+          "bg-gradient-to-r from-secondary to-secondary/80 text-secondary-foreground hover:from-secondary/80 hover:to-secondary shadow-sm hover:shadow-md hover:scale-105",
+        ghost: "hover:bg-accent/50 hover:text-accent-foreground hover:scale-105 backdrop-blur-sm",
+        link: "text-primary underline-offset-4 hover:underline hover:text-primary/80",
+        premium: "bg-gradient-to-r from-amber-500 to-yellow-600 text-white hover:from-amber-600 hover:to-yellow-700 shadow-elegant hover:shadow-glow hover:scale-105 border border-amber-400/30",
+        hero: "bg-white/10 text-white border-2 border-white/20 hover:bg-white/20 hover:border-white/40 backdrop-blur-md shadow-lg hover:shadow-xl hover:scale-105",
       },
       size: {
         default: "h-10 px-4 py-2",
