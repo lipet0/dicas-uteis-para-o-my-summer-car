@@ -2,7 +2,7 @@ import { GuideLayout } from "@/components/guide-layout"
 import { HeroSection } from "@/components/hero-section"
 import { GuideSection } from "@/components/guide-section"
 import { TipList } from "@/components/tip-list"
-import { WhatsAppButton } from "@/components/whatsapp-button"
+import { DiscordButton } from "@/components/discord-button"
 import { Card, CardContent } from "@/components/ui/card"
 
 // Usando as imagens já existentes no projeto
@@ -175,7 +175,7 @@ const Index = () => {
             </p>
             
             <div className="pt-6">
-              <WhatsAppButton />
+              <DiscordButton />
             </div>
             
             <p className="text-sm text-muted-foreground pt-4">
