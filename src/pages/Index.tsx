@@ -6,17 +6,19 @@ import { DiscordButton } from "@/components/discord-button"
 import { Card, CardContent } from "@/components/ui/card"
 
 // Usando as imagens já existentes no projeto
+const basePath = "/dicas-uteis-para-o-my-summer-car";
 const imageMap = {
-  primeiroPassos: "/lovable-uploads/c77029b6-cdd7-4c43-9545-65bc7e51656a.png", // interface stats
-  montagemCarro: "/lovable-uploads/cfa1c3c4-2bcc-4af9-bd5a-dac0dc6fa827.png", // motor carro
-  manutencao: "/lovable-uploads/4868b4a8-95f8-43d7-8536-9349518c4b85.png", // banheiro sobrevivencia
-  trabalhos: "/lovable-uploads/ccea9def-53c7-4dd0-9edd-81433ca572b9.png", // ferramentas
-  dicas: "/lovable-uploads/9ce638cc-1640-48aa-9acd-9f1781c15583.png", // mapa jogo
-  dirigindo: "/lovable-uploads/205107b4-fbda-4f8a-8e4f-b41ef97d6f62.png", // dirigindo carro
-  personalizacao: "/lovable-uploads/4cc1fa97-46e6-4402-a4fd-a95995d4e710.png", // carro montado
-  habilidades: "/lovable-uploads/b1c1bd4e-96fb-4054-9fb1-4621b4432b15.png", // motor carburadores
-  sobrevivencia: "/lovable-uploads/0e58749e-b887-4b8f-9566-1b1373eb3a43.png" // logo my summer car
-}
+  primeiroPassos: `${basePath}/lovable-uploads/c77029b6-cdd7-4c43-9545-65bc7e51656a.png`,
+  montagemCarro: `${basePath}/lovable-uploads/cfa1c3c4-2bcc-4af9-bd5a-dac0dc6fa827.png`,
+  manutencao: `${basePath}/lovable-uploads/4868b4a8-95f8-43d7-8536-9349518c4b85.png`,
+  trabalhos: `${basePath}/lovable-uploads/ccea9def-53c7-4dd0-9edd-81433ca572b9.png`,
+  dicas: `${basePath}/lovable-uploads/9ce638cc-1640-48aa-9acd-9f1781c15583.png`,
+  dirigindo: `${basePath}/lovable-uploads/205107b4-fbda-4f8a-8e4f-b41ef97d6f62.png`,
+  personalizacao: `${basePath}/lovable-uploads/4cc1fa97-46e6-4402-a4fd-a95995d4e710.png`,
+  habilidades: `${basePath}/lovable-uploads/b1c1bd4e-96fb-4054-9fb1-4621b4432b15.png`,
+  sobrevivencia: `${basePath}/lovable-uploads/f421b7bc-ca17-412f-8bbc-e214dbf207f2.png`,
+};
+
 
 const dicas = [
   {

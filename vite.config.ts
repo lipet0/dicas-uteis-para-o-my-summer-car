@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "/dicas-uteis-para-o-my-summer-car/",  // <<< ADICIONE ESSA LINHA
+  base: "/dicas-uteis-para-o-my-summer-car/", // <<< ESSA LINHA É OBRIGATÓRIA!
   server: {
     host: "::",
     port: 8080,
