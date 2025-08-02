@@ -23,13 +23,14 @@ export function GuideSection({ id, title, children, imageSrc, imageAlt }: GuideS
             {children}
           </div>
           {imageSrc && (
-            <div className="relative overflow-hidden rounded-xl">
+            <div className="relative overflow-hidden rounded-xl shadow-lg">
               <img
                 src={imageSrc}
                 alt={imageAlt || title}
-                className="w-full h-64 md:h-80 object-cover transition-transform duration-300 hover:scale-105"
+                className="w-full h-48 sm:h-56 md:h-64 lg:h-72 object-cover transition-all duration-300 hover:scale-105"
                 loading="lazy"
               />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300" />
             </div>
           )}
         </CardContent>

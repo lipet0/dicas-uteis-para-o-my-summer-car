@@ -1,7 +1,7 @@
 export function HeroSection() {
   return (
     <section id="inicio" className="relative overflow-hidden scroll-mt-20">
-      <div className="relative h-96 md:h-[500px] bg-hero-gradient">
+      <div className="relative h-64 sm:h-80 md:h-96 lg:h-[500px] bg-hero-gradient">
         <img
           src="/lovable-uploads/f421b7bc-ca17-412f-8bbc-e214dbf207f2.png"
           alt="My Summer Car - Paisagem finlandesa com carros clássicos"
