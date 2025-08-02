@@ -1,7 +1,7 @@
 const basePath = "/dicas-uteis-para-o-my-summer-car";
-
 const imageMap = {
-  banner: `${basePath}/lovable-uploads/0e58749e-b887-4b8f-9566-1b1373eb3a43.png`,
+
+  banner: `${basePath}/lovable-uploads/f421b7bc-ca17-412f-8bbc-e214dbf207f2.png`,
 };
 
 export function HeroSection() {
