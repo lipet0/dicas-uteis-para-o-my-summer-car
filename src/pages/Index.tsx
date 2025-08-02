@@ -8,6 +8,7 @@ import { Card, CardContent } from "@/components/ui/card"
 // Usando as imagens já existentes no projeto
 const basePath = "/dicas-uteis-para-o-my-summer-car";
 const imageMap = {
+
   primeiroPassos: `${basePath}/lovable-uploads/c77029b6-cdd7-4c43-9545-65bc7e51656a.png`,
   montagemCarro: `${basePath}/lovable-uploads/cfa1c3c4-2bcc-4af9-bd5a-dac0dc6fa827.png`,
   manutencao: `${basePath}/lovable-uploads/4868b4a8-95f8-43d7-8536-9349518c4b85.png`,

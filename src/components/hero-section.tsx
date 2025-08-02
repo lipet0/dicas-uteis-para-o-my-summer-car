@@ -1,9 +1,15 @@
+const basePath = "/dicas-uteis-para-o-my-summer-car";
+
+const imageMap = {
+  banner: `${basePath}/lovable-uploads/0e58749e-b887-4b8f-9566-1b1373eb3a43.png`,
+};
+
 export function HeroSection() {
   return (
     <section id="inicio" className="relative overflow-hidden scroll-mt-20">
       <div className="relative h-64 sm:h-80 md:h-96 lg:h-[500px] bg-hero-gradient">
         <img
-          src="/lovable-uploads/0e58749e-b887-4b8f-9566-1b1373eb3a43.png"
+          src={imageMap.banner}
           alt="My Summer Car - Paisagem finlandesa com carros clássicos"
           className="w-full h-full object-contain mix-blend-overlay opacity-80"
         />
