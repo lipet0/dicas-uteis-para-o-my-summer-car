@@ -168,6 +168,13 @@ const Index = () => {
         </GuideSection>
 
 
+                {/* Conclusão */}
+        <Card className="shadow-card border-border">
+          <CardContent className="p-8 text-center space-y-6">
+            <h2 className="text-3xl font-bold text-foreground border-l-4 border-primary pl-4 text-left">
+              Conclusão
+            </h2>
+
             <p className="text-lg leading-relaxed text-muted-foreground text-left">
               <strong className="text-foreground">My Summer Car</strong> é mais que um simulador de carro — é um retrato da vida real, com todas as suas frustrações, conquistas e absurdos. Para quem gosta de jogos desafiadores, cheios de possibilidades e com liberdade total, este título é uma verdadeira joia. Dominar o jogo exige tempo e persistência, mas a recompensa é imensa. Quando ouvir o motor do Satsuma funcionando pela primeira vez após semanas de tentativa, entenderá o valor de cada esforço. Boa sorte e que a força do motor esteja com você!
             </p>
