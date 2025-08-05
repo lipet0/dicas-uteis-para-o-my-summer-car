@@ -76,7 +76,7 @@ const Index = () => {
           imageAlt="Montagem do Carro"
         >
           <p>
-            A montagem do Satsuma é o coração do jogo. Todas as peças estão disponíveis na garagem, mas não há instruções no jogo — você precisa saber o que fazer, na ordem certa. São dezenas de parafusos, peças, ajustes e testes. Montar o carro não é apenas colocar as peças — é entender como um motor de combustão funciona.
+            A montagem do Satsuma é o coração do jogo. Todas as peças estão disponíveis na garagem, mas não há instruções no jogo, você precisa saber o que fazer, na ordem certa. São dezenas de parafusos, peças, ajustes e testes. Montar o carro não é apenas colocar as peças, é entender como um motor de combustão funciona.
           </p>
           <p>
             Você vai precisar instalar o bloco do motor, o virabrequim, pistões, cabeçote, carburador, sistema de escape, suspensão, direção, e por aí vai. Prepare-se para errar, desmontar e tentar de novo. Ter um guia de montagem ou vídeos abertos pode ser um grande auxílio. E lembre-se: torque errado, peças mal colocadas ou esquecidas resultarão em problemas sérios na hora de dar a partida no carro.
@@ -90,10 +90,10 @@ const Index = () => {
           imageAlt="Manutenção e Sobrevivência"
         >
           <p>
-            O personagem precisa comer, dormir, urinar, tomar banho e relaxar. Alimentos estão na geladeira, mas tudo acaba — é preciso ir até a cidade para reabastecer. Para tomar banho, entre no chuveiro. Para reduzir o stress, você pode beber, fumar, tomar café ou usar a sauna.
+            O personagem precisa comer, dormir, urinar, tomar banho e relaxar. Alimentos estão na geladeira, mas tudo acaba, é preciso ir até a cidade para reabastecer. Para tomar banho, entre no chuveiro. Para reduzir o stress, você pode beber, fumar, tomar café ou usar a sauna.
           </p>
           <p>
-            Se negligenciar qualquer uma dessas necessidades, a consequência pode ser a morte. Por isso, mantenha uma rotina equilibrada, e sempre pense duas vezes antes de dirigir com sono ou embriagado. O jogo não perdoa erros, e um pequeno descuido pode acabar em acidente fatal — literalmente.
+            Se negligenciar qualquer uma dessas necessidades, a consequência pode ser a morte. Por isso, mantenha uma rotina equilibrada, e sempre pense duas vezes antes de dirigir com sono ou embriagado. O jogo não perdoa erros, e um pequeno descuido pode acabar em acidente fatal, literalmente.
           </p>
         </GuideSection>
 
@@ -141,7 +141,7 @@ const Index = () => {
           imageAlt="Personalizando o Satsuma"
         >
           <p>
-            O Satsuma pode ser customizado de diversas maneiras, como aparência externa, suspensão, motor e mais. A personalização vai desde a troca de peças para melhorar o desempenho, até a pintura do carro. A estética é importante não só para seu gosto pessoal, mas também para o jogo em si — muitas vezes, é necessário andar com o carro bem ajustado para concluir missões com sucesso.
+            O Satsuma pode ser customizado de diversas maneiras, como aparência externa, suspensão, motor e mais. A personalização vai desde a troca de peças para melhorar o desempenho, até a pintura do carro. A estética é importante não só para seu gosto pessoal, mas também para o jogo em si, muitas vezes é necessário andar com o carro bem ajustado para concluir missões com sucesso.
           </p>
         </GuideSection>
 
@@ -167,12 +167,7 @@ const Index = () => {
           </p>
         </GuideSection>
 
-        {/* Conclusão */}
-        <Card className="shadow-card border-border">
-          <CardContent className="p-8 text-center space-y-6">
-            <h2 className="text-3xl font-bold text-foreground border-l-4 border-primary pl-4 text-left">
-              Conclusão
-            </h2>
+
             <p className="text-lg leading-relaxed text-muted-foreground text-left">
               <strong className="text-foreground">My Summer Car</strong> é mais que um simulador de carro — é um retrato da vida real, com todas as suas frustrações, conquistas e absurdos. Para quem gosta de jogos desafiadores, cheios de possibilidades e com liberdade total, este título é uma verdadeira joia. Dominar o jogo exige tempo e persistência, mas a recompensa é imensa. Quando ouvir o motor do Satsuma funcionando pela primeira vez após semanas de tentativa, entenderá o valor de cada esforço. Boa sorte e que a força do motor esteja com você!
             </p>
